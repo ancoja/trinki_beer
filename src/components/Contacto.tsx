@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Facebook, Instagram } from "lucide-react";
+import { MapPin, Phone, Mail, Facebook, Instagram, Music } from "lucide-react";
 
 const Contacto = () => {
   return (
@@ -41,7 +41,7 @@ const Contacto = () => {
                   <div>
                     <h4 className="font-semibold text-earth-100 mb-1">Teléfono</h4>
                     <p className="text-earth-300">
-                      Contáctanos a través de nuestras redes sociales
+                      +51 921 454 030
                     </p>
                   </div>
                 </div>
@@ -63,23 +63,27 @@ const Contacto = () => {
                 <h4 className="font-semibold text-earth-100 mb-4">Síguenos en Redes Sociales</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="#" 
+                    href="https://www.facebook.com/Trinki.craft.beer" 
                     className="flex items-center space-x-2 bg-earth-700 hover:bg-golden-500 text-earth-200 hover:text-earth-800 px-4 py-2 rounded-lg transition-colors"
                   >
                     <Facebook size={20} />
                     <span>Facebook</span>
                   </a>
                   <a 
-                    href="#" 
+                    href="https://www.instagram.com/trinki_beer" 
                     className="flex items-center space-x-2 bg-earth-700 hover:bg-golden-500 text-earth-200 hover:text-earth-800 px-4 py-2 rounded-lg transition-colors"
                   >
                     <Instagram size={20} />
                     <span>Instagram</span>
                   </a>
+                   <a 
+                    href="https://www.tiktok.com/@cervezas.trinki" 
+                    className="flex items-center space-x-2 bg-earth-700 hover:bg-golden-500 text-earth-200 hover:text-earth-800 px-4 py-2 rounded-lg transition-colors"
+                  >
+                    <Music size={20} />
+                    <span>Tik Tok</span>
+                  </a>
                 </div>
-                <p className="text-earth-300 text-sm mt-2">
-                  TikTok: @cervezas.trinki
-                </p>
               </div>
             </div>
 
