@@ -53,7 +53,7 @@ const Contacto = () => {
                   <div>
                     <h4 className="font-semibold text-earth-100 mb-1">Email</h4>
                     <p className="text-earth-300">
-                      info@trinki.pe
+                      trinki.beers@gmail.com
                     </p>
                   </div>
                 </div>
